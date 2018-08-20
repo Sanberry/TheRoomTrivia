@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="weight_value">0dp</dimen>
+    <dimen name="welcome_text_size">35sp</dimen>
+    <dimen name="main_page_margin">10dp</dimen>
+    <dimen name="main_image_padding">16dp</dimen>
+    <dimen name="info_text_size">18sp</dimen>
+    <dimen name="padding_right_left">10dp</dimen>
+    <dimen name="user_text_size">20sp</dimen>
+    <dimen name="margin">20dp</dimen>
+    <dimen name="padding">20dp</dimen>
+    <dimen name="start_text_size">22sp</dimen>
+    <dimen name="radio_text_size">16sp</dimen>
+    <dimen name="radio_margin">10dp</dimen>
+    <dimen name="question_text_size">20sp</dimen>
+    <dimen name="line">2dp</dimen>
+    <dimen name="end_margin">30dp</dimen>
+    <dimen name="image_height">200dp</dimen>
+    <dimen name="image_width">400dp</dimen>
+</resources>

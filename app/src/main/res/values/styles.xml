@@ -1,0 +1,171 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/windowBackground</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+    </style>
+
+    <style name="MainPageLayout">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginBottom">@dimen/main_page_margin</item>
+        <item name="android:layout_marginTop">@dimen/main_page_margin</item>
+    </style>
+
+    <style name="Welcome">
+        <item name="android:textSize">@dimen/welcome_text_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:fontFamily">serif-sans-light</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MainPageImage">
+        <item name="android:src">@drawable/the_room_trivia</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:paddingTop">@dimen/main_image_padding</item>
+    </style>
+
+    <style name="toTriviaChallenge">
+        <item name="android:textSize">@dimen/welcome_text_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">serif-sans-light</item>
+    </style>
+
+    <style name="Info">
+        <item name="android:textSize">@dimen/info_text_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/dark_grey</item>
+        <item name="android:paddingRight">@dimen/padding_right_left</item>
+        <item name="android:paddingLeft">@dimen/padding_right_left</item>
+        <item name="android:paddingTop">@dimen/main_image_padding</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:fontFamily">serif-sans-light</item>
+        <item name="android:paddingBottom">@dimen/main_image_padding</item>
+    </style>
+
+    <style name="QuizInfo">
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/padding_right_left</item>
+        <item name="android:textSize">@dimen/info_text_size</item>
+    </style>
+
+    <style name="UserNameEntry">
+        <item name="android:paddingTop">@dimen/padding_right_left</item>
+        <item name="android:textSize">@dimen/user_text_size</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:inputType">text</item>
+    </style>
+
+    <style name="StartButton">
+        <item name="android:padding">@dimen/padding</item>
+        <item name="android:textSize">@dimen/start_text_size</item>
+        <item name="android:textColor">@color/windowBackground</item>
+        <item name="android:backgroundTint">@color/colorAccent</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="Entry">
+        <item name="android:textSize">@dimen/info_text_size</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+    </style>
+
+    <style name="RadioButton">
+        <item name="android:textSize">@dimen/radio_text_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:layout_marginTop">@dimen/radio_margin</item>
+        <item name="android:text">""</item>
+    </style>
+
+    <style name="RadioGroup">
+        <item name="android:layout_margin">@dimen/radio_margin</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="CheckBoxGroup">
+        <item name="android:layout_margin">@dimen/radio_margin</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="QuestionNumber">
+        <item name="android:textSize">@dimen/question_text_size</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:paddingLeft">@dimen/padding</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+
+    </style>
+
+    <style name="Question">
+        <item name="android:textSize">@dimen/info_text_size</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:layout_marginLeft">@dimen/radio_margin</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="QuestionLayout">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:padding">@dimen/radio_margin</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Line">
+        <item name="android:background">@color/colorAccent</item>
+    </style>
+
+    <style name="EndLine">
+        <item name="android:background">@color/colorAccent</item>
+    </style>
+
+    <style name="Submit">
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">@dimen/margin</item>
+        <item name="android:textColor">@color/windowBackground</item>
+    </style>
+
+    <style name="Score">
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">@dimen/margin</item>
+        <item name="android:textColor">@color/windowBackground</item>
+    </style>
+
+    <style name="ResultTextView">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">@dimen/end_margin</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:textSize">@dimen/radio_text_size</item>
+    </style>
+
+    <style name="CheckBox">
+        <item name="android:textSize">@dimen/radio_text_size</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:layout_marginTop">@dimen/radio_margin</item>
+        <item name="android:text">""</item>
+    </style>
+
+    <style name="ImageAndGif">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">@dimen/radio_margin</item>
+
+    </style>
+</resources>
